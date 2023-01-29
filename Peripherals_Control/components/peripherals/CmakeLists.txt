@@ -1,0 +1,4 @@
+idf_component_register(SRCS "peripherals.cpp"
+                            "modules/gpio_input.cpp"
+                            "modules/gpio_output.cpp"
+                        INCLUDE_DIRS  "include")
