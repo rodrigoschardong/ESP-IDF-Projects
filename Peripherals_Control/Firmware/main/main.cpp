@@ -25,7 +25,7 @@ void FlashInit(){
 
 extern "C" void app_main(void)
 {
-    cWiFi wifi("SSID", "PASSWORD");
+    cWiFi wifi("Dig-Fi", "trampolim");
     cGpioOutput gpio;
 
     FlashInit();
